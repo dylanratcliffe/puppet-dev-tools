@@ -1,4 +1,4 @@
-FROM puppet/puppet-dev-tools:latest
+FROM dylanratcliffe/puppet-dev-tools:latest
 
 ## Add gosu for CD for PE agent installation uid changes
 ENV GOSU_VERSION 1.11
